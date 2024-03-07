@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Dynamic Form Application
+#### This dynamic form application allows users to seamlessly add, edit, and view data with support for various components, including textboxes, textareas, checkboxes, and radio buttons. Users can dynamically add #### components to the form, disable/enable them, and perform add-edit-view-delete operations.
+<br/>
+# bash
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### git clone https://github.com/your-username/dynamic-form-app.git
+#### Navigate to the project directory:
 
-## Available Scripts
+#### bash
 
-In the project directory, you can run:
+#### cd dynamic-form-app
+ #### Install dependencies:
 
-### `npm start`
+#### bash
+#### npm install
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Use the form to dynamically add, edit, and view data.
+<br/>
+# Features
+<br/>
+## Dynamic Components
+#### Users can select a component type (textbox, textarea, checkbox, radio button, etc.).
+#### Specify a label and type, and dynamically add it to the form.
+## Add-Edit-View Functionality
+#### Seamlessly add new entries to the form.
+#### Edit existing entries with ease.
+#### View entries within the form.
+<br/>
+# Validation
+#### For textbox components with a number type, validation ensures only numeric characters are allowed.
+ #### Displays an appropriate error message if alphabetic characters are entered.
+ <br/>
+# Dynamically Disable/Enable Components
+#### Users can dynamically disable or enable individual components based on their requirements.
+<br/>
+# Technologies Used
+#### React.js
+#### Redux
+#### HTML
+#### TailwindCSS
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here:"https://65e96a0a9b81dfb8e242a9ba--ornate-tulumba-70b159.netlify.app/"
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
